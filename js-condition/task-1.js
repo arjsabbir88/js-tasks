@@ -5,7 +5,7 @@ Free Drinks
     - Else Coke: 30tk
 */
 
-var burgerPrice = prompt("Enter the burger Price : ");
+var burgerPrice = 520;
 if (burgerPrice>=500){
     console.log("Free coke for you");
 }else{
