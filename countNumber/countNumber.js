@@ -1,9 +1,14 @@
 function countNumber(num){
+
+    if(num<0 || typeof num == "string"){
+        return "enter a integer number";
+    }
+
     for(let count=0; count<=num; count++){
-        console.log(count);
+        return count
     }
 }
-
-const count = countNumber(5);
+const num = '&';
+const count = countNumber(num);
 
 console.log(count);
